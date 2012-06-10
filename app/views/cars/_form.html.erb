@@ -8,7 +8,10 @@
   <div class="control-group">
     <%= f.label :make, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :make, :class => 'text_field' %>
+        <div class="input-append">
+            <%= f.text_field :make, :class => 'text_field' %>
+            <span class="add-on">Appended Text</span>
+        </div>
     </div>
   </div>
   <div class="control-group">
