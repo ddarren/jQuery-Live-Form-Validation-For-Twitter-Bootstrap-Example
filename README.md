@@ -5,5 +5,9 @@ A Rails example web application utilizing the jQuery-Live-Form-Validation-For-Tw
 
 https://github.com/ddarren/jQuery-Live-Form-Validation-For-Twitter-Bootstrap
 
-The example is ready-to-go. The SQLite database is checked in. All you need to do is run "rails s".
+The example is ready-to-go. The SQLite database is checked in.
+All you need to do is have [bundler](http://gembundler.com/) installed and then run:
+
+    bundle
+    bundle exec rails s
 
